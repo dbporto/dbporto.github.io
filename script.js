@@ -215,7 +215,7 @@ setInterval(
 				"&showLegend=" + JSONdashboard.overview.graphs[3].showLegend + "&theme=" + JSONdashboard.overview.theme + "&autoRefresh=" + JSONdashboard.overview.graphs[3].autorefresh + 
 				"&timeframe=" + JSONdashboard.overview.graphs[3].timeframe;
 				h1.textContent = "Visão geral";
-				stringUsed = 1;
+				currentDash = 1;
 				break;
 			}
 			case 1: {
@@ -232,7 +232,7 @@ setInterval(
 				"&showLegend=" + JSONdashboard.overviewExtra.graphs[3].showLegend + "&theme=" + JSONdashboard.overviewExtra.theme + "&autoRefresh=" + JSONdashboard.overviewExtra.graphs[3].autorefresh + 
 				"&timeframe=" + JSONdashboard.overviewExtra.graphs[3].timeframe;
 				h1.textContent = "Visão geral extra";
-				stringUsed = 2;
+				currentDash = 2;
 				break;
 			}
 			case 2: {
@@ -249,7 +249,7 @@ setInterval(
 				"&showLegend=" + JSONdashboard.SQLdb.graphs[3].showLegend + "&theme=" + JSONdashboard.SQLdb.theme + "&autoRefresh=" + JSONdashboard.SQLdb.graphs[3].autorefresh + 
 				"&timeframe=" + JSONdashboard.SQLdb.graphs[3].timeframe;
 				h1.textContent = "SQL DB";
-				stringUsed = 0;
+				currentDash = 0;
 				break;
 			}
 		}
