@@ -202,16 +202,16 @@ setInterval(
 		var el4 = document.getElementById('iframe4');
 		switch(currentDash){
 			case 0: {
-				el1.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[0].google_id + "?drawMode=" + JSONdashboard.overview.graphs[0].drawMode + 
+				el1.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[0].google_id + "?drawMode=" + JSONdashboard.overview.drawMode + 
 				"&showLegend=" + JSONdashboard.overview.graphs[0].showLegend + "&theme=" + JSONdashboard.overview.theme + "&autoRefresh=" + JSONdashboard.overview.graphs[0].autorefresh + 
 				"&timeframe=" + JSONdashboard.overview.graphs[0].timeframe;
-				el2.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[1].google_id + "?drawMode=" + JSONdashboard.overview.graphs[1].drawMode + 
+				el2.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[1].google_id + "?drawMode=" + JSONdashboard.overview.drawMode + 
 				"&showLegend=" + JSONdashboard.overview.graphs[1].showLegend + "&theme=" + JSONdashboard.overview.theme + "&autoRefresh=" + JSONdashboard.overview.graphs[1].autorefresh + 
 				"&timeframe=" + JSONdashboard.overview.graphs[1].timeframe;
-				el3.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[2].google_id + "?drawMode=" + JSONdashboard.overview.graphs[2].drawMode + 
+				el3.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[2].google_id + "?drawMode=" + JSONdashboard.overview.drawMode + 
 				"&showLegend=" + JSONdashboard.overview.graphs[2].showLegend + "&theme=" + JSONdashboard.overview.theme + "&autoRefresh=" + JSONdashboard.overview.graphs[2].autorefresh + 
 				"&timeframe=" + JSONdashboard.overview.graphs[2].timeframe;
-				el4.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[3].google_id + "?drawMode=" + JSONdashboard.overview.graphs[3].drawMode + 
+				el4.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overview.graphs[3].google_id + "?drawMode=" + JSONdashboard.overview.drawMode + 
 				"&showLegend=" + JSONdashboard.overview.graphs[3].showLegend + "&theme=" + JSONdashboard.overview.theme + "&autoRefresh=" + JSONdashboard.overview.graphs[3].autorefresh + 
 				"&timeframe=" + JSONdashboard.overview.graphs[3].timeframe;
 				h1.textContent = "Visão geral";
@@ -219,16 +219,16 @@ setInterval(
 				break;
 			}
 			case 1: {
-				el1.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[0].google_id + "?drawMode=" + JSONdashboard.overviewExtra.graphs[0].drawMode + 
+				el1.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[0].google_id + "?drawMode=" + JSONdashboard.overviewExtra.drawMode + 
 				"&showLegend=" + JSONdashboard.overviewExtra.graphs[0].showLegend + "&theme=" + JSONdashboard.overviewExtra.theme + "&autoRefresh=" + JSONdashboard.overviewExtra.graphs[0].autorefresh + 
 				"&timeframe=" + JSONdashboard.overviewExtra.graphs[0].timeframe;
-				el2.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[1].google_id + "?drawMode=" + JSONdashboard.overviewExtra.graphs[1].drawMode + 
+				el2.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[1].google_id + "?drawMode=" + JSONdashboard.overviewExtra.drawMode + 
 				"&showLegend=" + JSONdashboard.overviewExtra.graphs[1].showLegend + "&theme=" + JSONdashboard.overviewExtra.theme + "&autoRefresh=" + JSONdashboard.overviewExtra.graphs[1].autorefresh + 
 				"&timeframe=" + JSONdashboard.overviewExtra.graphs[1].timeframe;
-				el3.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[2].google_id + "?drawMode=" + JSONdashboard.overviewExtra.graphs[2].drawMode + 
+				el3.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[2].google_id + "?drawMode=" + JSONdashboard.overviewExtra.drawMode + 
 				"&showLegend=" + JSONdashboard.overviewExtra.graphs[2].showLegend + "&theme=" + JSONdashboard.overviewExtra.theme + "&autoRefresh=" + JSONdashboard.overviewExtra.graphs[2].autorefresh + 
 				"&timeframe=" + JSONdashboard.overviewExtra.graphs[2].timeframe;
-				el4.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[3].google_id + "?drawMode=" + JSONdashboard.overviewExtra.graphs[3].drawMode + 
+				el4.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.overviewExtra.graphs[3].google_id + "?drawMode=" + JSONdashboard.overviewExtra.drawMode + 
 				"&showLegend=" + JSONdashboard.overviewExtra.graphs[3].showLegend + "&theme=" + JSONdashboard.overviewExtra.theme + "&autoRefresh=" + JSONdashboard.overviewExtra.graphs[3].autorefresh + 
 				"&timeframe=" + JSONdashboard.overviewExtra.graphs[3].timeframe;
 				h1.textContent = "Visão geral extra";
@@ -236,16 +236,16 @@ setInterval(
 				break;
 			}
 			case 2: {
-				el1.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[0].google_id + "?drawMode=" + JSONdashboard.SQLdb.graphs[0].drawMode + 
+				el1.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[0].google_id + "?drawMode=" + JSONdashboard.SQLdb.drawMode + 
 				"&showLegend=" + JSONdashboard.SQLdb.graphs[0].showLegend + "&theme=" + JSONdashboard.SQLdb.theme + "&autoRefresh=" + JSONdashboard.SQLdb.graphs[0].autorefresh + 
 				"&timeframe=" + JSONdashboard.SQLdb.graphs[0].timeframe;
-				el2.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[1].google_id + "?drawMode=" + JSONdashboard.SQLdb.graphs[1].drawMode + 
+				el2.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[1].google_id + "?drawMode=" + JSONdashboard.SQLdb.drawMode + 
 				"&showLegend=" + JSONdashboard.SQLdb.graphs[1].showLegend + "&theme=" + JSONdashboard.SQLdb.theme + "&autoRefresh=" + JSONdashboard.SQLdb.graphs[1].autorefresh + 
 				"&timeframe=" + JSONdashboard.SQLdb.graphs[1].timeframe;
-				el3.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[2].google_id + "?drawMode=" + JSONdashboard.SQLdb.graphs[2].drawMode + 
+				el3.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[2].google_id + "?drawMode=" + JSONdashboard.SQLdb.drawMode + 
 				"&showLegend=" + JSONdashboard.SQLdb.graphs[2].showLegend + "&theme=" + JSONdashboard.SQLdb.theme + "&autoRefresh=" + JSONdashboard.SQLdb.graphs[2].autorefresh + 
 				"&timeframe=" + JSONdashboard.SQLdb.graphs[2].timeframe;
-				el4.src = "\"https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[3].google_id + "?drawMode=" + JSONdashboard.SQLdb.graphs[3].drawMode + 
+				el4.src = "https://public.google.stackdriver.com/public/chart/" + JSONdashboard.SQLdb.graphs[3].google_id + "?drawMode=" + JSONdashboard.SQLdb.drawMode + 
 				"&showLegend=" + JSONdashboard.SQLdb.graphs[3].showLegend + "&theme=" + JSONdashboard.SQLdb.theme + "&autoRefresh=" + JSONdashboard.SQLdb.graphs[3].autorefresh + 
 				"&timeframe=" + JSONdashboard.SQLdb.graphs[3].timeframe;
 				h1.textContent = "SQL DB";
@@ -254,4 +254,4 @@ setInterval(
 			}
 		}
 	}
-, 120000);
+, 25000);
